@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Password Forge",
+  "short_name": "Forge",
+  "description": "Cryptographically secure password and passphrase generator. Every result has at least 13 characters, an uppercase letter, a number and a special character.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFBEA",
+  "theme_color": "#FFFBEA",
+  "categories": ["utilities", "security", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
