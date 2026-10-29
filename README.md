@@ -8,6 +8,7 @@ A cryptographically secure password and passphrase generator that runs entirely 
 - **Passphrases:** 5 to 10 words from the EFF long wordlist (7,776 words), each capitalized, with one random number and a symbol separator (`-` `.` `_` `+`), so they meet the same requirements
 - Randomness from `crypto.getRandomValues`, with rejection sampling for unbiased picks and a secure Fisher–Yates shuffle
 - Optional lowercase letters and a look-alike filter (I, l, 1, O, 0, o) for passwords
+- **No special characters** switch for sites that reject symbols: passwords use letters and numbers only (still at least one uppercase letter and one number), and passphrases run their words together with no separator, skipping the four hyphenated words in the list (7,772 remain)
 - Live strength meter, entropy in bits, pool size and number of possibilities
 - Show/hide and one-click copy, with screen-reader announcements that never read the password aloud
 - Accessible: visible focus rings, keyboard-operable controls, reduced-motion support
